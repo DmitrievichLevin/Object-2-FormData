@@ -31,8 +31,8 @@
     "rules": {
       "import/no-anonymous-default-export": "off",
       "unicorn/filename-case": "off",
-      "unicorn/prevent-abbreviations": "off",
-      "class-methods-use-this": "off",
+      "unicorn/prevent-abbreviations": "off"
+      
     }
   }
 }
