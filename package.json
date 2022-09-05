@@ -10,7 +10,7 @@
   "main": "./src/index.js",
   "repository": "DmitrievichLevin/Object-2-FormData",
   "scripts": {
-    "test": "jest --config ./jest-config.js",
+    "test": "xo && ava",
     "release": "semantic-release"
   },
   "type": "module",
@@ -31,7 +31,8 @@
     "rules": {
       "import/no-anonymous-default-export": "off",
       "unicorn/filename-case": "off",
-      "unicorn/prevent-abbreviations": "off"
+      "unicorn/prevent-abbreviations": "off",
+      "class-methods-use-this": "off",
     }
   }
 }
