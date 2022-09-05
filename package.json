@@ -1,12 +1,13 @@
 {
   "name": "Object-2-FormData",
-  "version": "0.0.0",
-  "description": "An awesome package",
+  "version": "0.0.1",
+  "description": "JavaScript Class that creates form data from complex objects.",
   "keywords": [],
   "homepage": "https://github.com/DmitrievichLevin/Object-2-FormData",
   "bugs": "https://github.com/DmitrievichLevin/Object-2-FormData/issues",
   "license": "MIT",
-  "author": " <>",
+  "author": "HowardBleu",
+  "main": "./src/index.js",
   "repository": "DmitrievichLevin/Object-2-FormData",
   "scripts": {
     "test": "xo && ava",
