@@ -1,0 +1,33 @@
+{
+  "name": "Object-2-FormData",
+  "version": "0.0.0",
+  "description": "An awesome package",
+  "keywords": [],
+  "homepage": "https://github.com/DmitrievichLevin/Object-2-FormData",
+  "bugs": "https://github.com/DmitrievichLevin/Object-2-FormData/issues",
+  "license": "MIT",
+  "author": " <>",
+  "repository": "DmitrievichLevin/Object-2-FormData",
+  "scripts": {
+    "test": "xo && ava",
+    "release": "semantic-release"
+  },
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^4.3.3",
+    "semantic-release": "^19.0.5",
+    "xo": "^0.52.3"
+  },
+  "ava": {
+    "verbose": true
+  },
+  "xo": {
+    "prettier": true,
+    "space": 2,
+    "semicolon": false,
+    "rules": {
+      "import/no-anonymous-default-export": "off"
+    }
+  }
+}
