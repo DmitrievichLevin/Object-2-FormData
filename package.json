@@ -26,9 +26,10 @@
   "xo": {
     "prettier": true,
     "space": 2,
-    "semicolon": false,
+    "semicolon": true,
     "rules": {
-      "import/no-anonymous-default-export": "off"
+      "import/no-anonymous-default-export": "off",
+      "unicorn/filename-case": "off"
     }
   }
 }
