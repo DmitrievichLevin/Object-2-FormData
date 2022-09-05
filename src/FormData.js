@@ -1,4 +1,4 @@
-import { NestedObject } from './NestedObject.js';
+import {NestedObject} from './NestedObject.js';
 
 export class ObjectFormData {
   constructor(obj = {}, baseKey = undefined) {

@@ -10,7 +10,7 @@
   "main": "./src/index.js",
   "repository": "DmitrievichLevin/Object-2-FormData",
   "scripts": {
-    "test": "xo && ava",
+    "test": "xo",
     "release": "semantic-release"
   },
   "type": "module",
@@ -27,9 +27,11 @@
     "prettier": true,
     "space": 2,
     "semicolon": true,
+    "setWithoutGet": true,
     "rules": {
       "import/no-anonymous-default-export": "off",
-      "unicorn/filename-case": "off"
+      "unicorn/filename-case": "off",
+      "unicorn/prevent-abbreviations": "off"
     }
   }
 }
