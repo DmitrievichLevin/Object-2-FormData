@@ -12,7 +12,7 @@ export class NestedObject {
   // eslint-disable-next-line class-methods-use-this
   getNestedObject(base, names, type) {
     let nestedObject;
-    if (type === "object" && !Array.isArray(base)) {
+    if (type === 'object' && !Array.isArray(base)) {
       names?.forEach((item, i) => {
         nestedObject = base[item[i]];
         return nestedObject;
@@ -28,8 +28,8 @@ export class NestedObject {
       i === 0 ? `${name}` : `[${name}]`
     );
     if (isArray) {
-      return [...nestedKeyString, "[]"].join("");
+      return [...nestedKeyString, '[]'].join('');
     }
-    return nestedKeyString.join("");
+    return nestedKeyString.join('');
   }
 }
