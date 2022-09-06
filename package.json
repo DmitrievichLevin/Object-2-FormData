@@ -27,7 +27,7 @@
     "verbose": true
   },
   "xo": {
-    "prettier": true,
+    "prettier": false,
     "space": 2,
     "semicolon": true,
     "rules": {
