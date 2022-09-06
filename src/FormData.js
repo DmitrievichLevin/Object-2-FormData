@@ -1,5 +1,3 @@
-
-import {FormData} from 'form-data';
 import {NestedObject} from './NestedObject.js';
 
 export class ObjectFormData {

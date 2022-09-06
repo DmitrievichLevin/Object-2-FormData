@@ -1,5 +1,5 @@
 {
-  "name": "Object-2-FormData",
+  "name": "object-2-formdata",
   "version": "0.0.1",
   "description": "JavaScript Class that creates form data from complex objects.",
   "keywords": [],
@@ -10,7 +10,6 @@
   "main": "./src/index.js",
   "repository": "DmitrievichLevin/Object-2-FormData",
   "scripts": {
-    "test": "xo && ava",
     "release": "semantic-release"
   },
   "type": "module",
@@ -22,23 +21,5 @@
     "ava": "^4.3.3",
     "semantic-release": "^19.0.5",
     "xo": "^0.52.3"
-  },
-  "ava": {
-    "verbose": true
-  },
-  "xo": {
-    "prettier": true,
-    "class-methods-use-this": false,
-    "space": 2,
-    "semicolon": true,
-    "rules": {
-      "import/no-anonymous-default-export": "off",
-      "unicorn/filename-case": "off",
-      "unicorn/prevent-abbreviations": "off",
-      "accessor-pairs": "off",
-      "unicorn/no-array-for-each": "off",
-      "unicorn/no-useless-undefined": "off",
-      "unicorn/…": "off"
-    }
   }
 }
