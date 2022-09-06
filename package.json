@@ -37,7 +37,8 @@
       "accessor-pairs": "off",
       "unicorn/no-array-for-each": "off",
       "unicorn/no-useless-undefined": "off",
-      "class-methods-use-this": "off"
+      "class-methods-use-this": "off",
+      "unicorn/…": "off"
     }
   }
 }

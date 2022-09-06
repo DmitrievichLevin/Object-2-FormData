@@ -1,1 +1,1 @@
-export {ObjectFormData as ObjectToForm} from './FormData.js'
+export {ObjectFormData as ObjectToForm} from './FormData.js';
