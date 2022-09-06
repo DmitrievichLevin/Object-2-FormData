@@ -35,12 +35,12 @@ import { ObjectToForm } from "object-2-formdata";
 const form = new ObjectToForm(<Object>, <String>);
 ```
 
-#### <Object>:
+#### Object:
 
 - **Required**
 - Object to parse into Form Data
 
-#### <String>:
+#### String:
 
 - **Not Required**
 - Base String eg.('payload')
