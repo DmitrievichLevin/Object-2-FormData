@@ -1,5 +1,5 @@
-import {FormData} from "form-data";
-import {NestedObject} from "./NestedObject.js";
+import {FormData} from 'form-data';
+import {NestedObject} from './NestedObject.js';
 
 export class ObjectFormData {
   constructor(obj = {}, baseKey = undefined) {
@@ -42,7 +42,7 @@ export class ObjectFormData {
     const nestedObject = new NestedObject(obj, keys);
 
     if (
-      typeof obj === "object" &&
+      typeof obj === 'object' &&
       !Array.isArray(obj) &&
       !(obj instanceof File)
     ) {
@@ -53,7 +53,7 @@ export class ObjectFormData {
       if (nestedObject.nestedObject.length > 0) {
         nestedObject.nestedObject.forEach((elem, index) => {
           if (
-            typeof elem === "object" &&
+            typeof elem === 'object' &&
             !Array.isArray(elem) &&
             !(elem instanceof File)
           ) {
