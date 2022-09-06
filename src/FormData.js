@@ -1,4 +1,5 @@
 import {NestedObject} from './NestedObject.js';
+import {FormData} from 'form-data';
 
 export class ObjectFormData {
   constructor(obj = {}, baseKey = undefined) {

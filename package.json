@@ -14,7 +14,10 @@
     "release": "semantic-release"
   },
   "type": "module",
-  "dependencies": {},
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "sinon": "^14.0.0"
+  },
   "devDependencies": {
     "ava": "^4.3.3",
     "semantic-release": "^19.0.5",
@@ -32,7 +35,6 @@
       "import/no-anonymous-default-export": "off",
       "unicorn/filename-case": "off",
       "unicorn/prevent-abbreviations": "off"
-      
     }
   }
 }
