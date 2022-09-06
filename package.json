@@ -30,6 +30,7 @@
     "prettier": true,
     "space": 2,
     "semicolon": true,
+    "class-methods-use-this": false,
     "rules": {
       "import/no-anonymous-default-export": "off",
       "unicorn/filename-case": "off",
