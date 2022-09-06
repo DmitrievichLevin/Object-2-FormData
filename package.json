@@ -30,11 +30,12 @@
     "prettier": true,
     "space": 2,
     "semicolon": true,
-    "setWithoutGet": true,
     "rules": {
       "import/no-anonymous-default-export": "off",
       "unicorn/filename-case": "off",
-      "unicorn/prevent-abbreviations": "off"
+      "unicorn/prevent-abbreviations": "off",
+      "accessor-pairs": "off",
+      "unicorn/no-array-for-each": "off"
     }
   }
 }
