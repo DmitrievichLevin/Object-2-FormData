@@ -1,6 +1,6 @@
 {
   "name": "object-2-formdata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript Class that creates form data from complex objects.",
   "keywords": [],
   "homepage": "https://github.com/DmitrievichLevin/Object-2-FormData",
