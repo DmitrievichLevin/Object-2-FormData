@@ -27,7 +27,8 @@
     "verbose": true
   },
   "xo": {
-    "prettier": false,
+    "prettier": true,
+    "class-methods-use-this": false,
     "space": 2,
     "semicolon": true,
     "rules": {
@@ -37,7 +38,6 @@
       "accessor-pairs": "off",
       "unicorn/no-array-for-each": "off",
       "unicorn/no-useless-undefined": "off",
-      "class-methods-use-this": "off",
       "unicorn/…": "off"
     }
   }
