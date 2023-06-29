@@ -4451,8 +4451,8 @@ safe-regex@^2.1.1:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
 
 semantic-release@^21.0.0:
-  version "21.0.5"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-21.0.5.tgz#3a95c44df8c4cb0bdc4e483f3c14ba3d8f04f1bd"
+  version "21.0.6"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-21.0.6.tgz#096fd47630716461f4f634d13c9d7dfea92fe5a1"
   dependencies:
     "@semantic-release/commit-analyzer" "^10.0.0"
     "@semantic-release/error" "^4.0.0"
