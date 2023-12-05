@@ -18,7 +18,7 @@
     "sinon": "^17.0.0"
   },
   "devDependencies": {
-    "ava": "^5.0.1",
+    "ava": "^6.0.0",
     "semantic-release": "^22.0.0",
     "xo": "^0.56.0"
   }
