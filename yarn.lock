@@ -4877,8 +4877,8 @@ safe-regex-test@^1.0.0:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
 
 semantic-release@^22.0.0:
-  version "22.0.10"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-22.0.10.tgz#e1fbef4878a60cd350d036e286e5cfc752cff14d"
+  version "22.0.12"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-22.0.12.tgz#b8dd1a096b597080e05f30554ee5d128fe6dac84"
   dependencies:
     "@semantic-release/commit-analyzer" "^11.0.0"
     "@semantic-release/error" "^4.0.0"
