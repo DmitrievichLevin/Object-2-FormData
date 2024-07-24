@@ -5779,8 +5779,8 @@ write-file-atomic@^5.0.0, write-file-atomic@^5.0.1:
     signal-exit "^4.0.1"
 
 xo@^0.59.0:
-  version "0.59.0"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-0.59.0.tgz#15858bb5a1df4ac02485c77315e3af85f3782b28"
+  version "0.59.2"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-0.59.2.tgz#11a5e46b9a6e0b6afe041eff3498d4e8248c494b"
   dependencies:
     "@eslint/eslintrc" "^3.1.0"
     "@typescript-eslint/eslint-plugin" "^7.16.1"
