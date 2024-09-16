@@ -621,9 +621,9 @@
   dependencies:
     type-detect "4.0.8"
 
-"@sinonjs/fake-timers@13.0.1", "@sinonjs/fake-timers@^13.0.1":
-  version "13.0.1"
-  resolved "https://registry.yarnpkg.com/@sinonjs/fake-timers/-/fake-timers-13.0.1.tgz#7724d20630f0d306c706fdf36d0a29c8dbd525d0"
+"@sinonjs/fake-timers@^13.0.1", "@sinonjs/fake-timers@^13.0.2":
+  version "13.0.2"
+  resolved "https://registry.yarnpkg.com/@sinonjs/fake-timers/-/fake-timers-13.0.2.tgz#3ffe88abb062067a580fdfba706ad00435a0f2a6"
   dependencies:
     "@sinonjs/commons" "^3.0.1"
 
@@ -5041,11 +5041,11 @@ sigstore@^2.2.0:
     "@sigstore/verify" "^1.1.0"
 
 sinon@^19.0.1:
-  version "19.0.1"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-19.0.1.tgz#6e7943fc8af05ed2d62d37ba9b3cee5c36726b7e"
+  version "19.0.2"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-19.0.2.tgz#944cf771d22236aa84fc1ab70ce5bffc3a215dad"
   dependencies:
     "@sinonjs/commons" "^3.0.1"
-    "@sinonjs/fake-timers" "13.0.1"
+    "@sinonjs/fake-timers" "^13.0.2"
     "@sinonjs/samsam" "^8.0.1"
     diff "^7.0.0"
     nise "^6.1.1"
