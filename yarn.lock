@@ -772,20 +772,20 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
 
-"@vercel/nft@^0.26.2":
-  version "0.26.2"
-  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.26.2.tgz#c5018201dbb324d7fac455be6cee03d34ebd9ce8"
+"@vercel/nft@^0.27.5":
+  version "0.27.5"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.27.5.tgz#7f0d112e05193ba7aab5d72dc91e5955194743cc"
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
     "@rollup/pluginutils" "^4.0.0"
     acorn "^8.6.0"
-    acorn-import-attributes "^1.9.2"
+    acorn-import-attributes "^1.9.5"
     async-sema "^3.1.1"
     bindings "^1.4.0"
     estree-walker "2.0.2"
     glob "^7.1.3"
     graceful-fs "^4.2.9"
-    micromatch "^4.0.2"
+    micromatch "^4.0.8"
     node-gyp-build "^4.2.2"
     resolve-from "^5.0.0"
 
@@ -803,21 +803,23 @@ abort-controller@^3.0.0:
   dependencies:
     event-target-shim "^5.0.0"
 
-acorn-import-attributes@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/acorn-import-attributes/-/acorn-import-attributes-1.9.2.tgz#bc3765bca6ec0c5c69d2293afd582216215279b0"
+acorn-import-attributes@^1.9.5:
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/acorn-import-attributes/-/acorn-import-attributes-1.9.5.tgz#7eb1557b1ba05ef18b5ed0ec67591bfab04688ef"
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz"
 
-acorn-walk@^8.3.2:
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.3.2.tgz#7703af9415f1b6db9315d6895503862e231d34aa"
+acorn-walk@^8.3.4:
+  version "8.3.4"
+  resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.3.4.tgz#794dd169c3977edf4ba4ea47583587c5866236b7"
+  dependencies:
+    acorn "^8.11.0"
 
-acorn@^8.11.3, acorn@^8.6.0, acorn@^8.8.0, acorn@^8.9.0:
-  version "8.11.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.11.3.tgz#71e0b14e13a4ec160724b38fb7b0f233b1b81d7a"
+acorn@^8.11.0, acorn@^8.11.3, acorn@^8.13.0, acorn@^8.6.0, acorn@^8.8.0, acorn@^8.9.0:
+  version "8.14.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.14.0.tgz#063e2c70cac5fb4f6467f0b11152e04c682795b0"
 
 agent-base@6, agent-base@^6.0.2:
   version "6.0.2"
@@ -1052,17 +1054,17 @@ asynckit@^0.4.0:
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
 
 ava@^6.0.0:
-  version "6.1.3"
-  resolved "https://registry.yarnpkg.com/ava/-/ava-6.1.3.tgz#aed54a4528653c7a62b6d68d0a53608b22a5b1dc"
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/ava/-/ava-6.2.0.tgz#77be81e745ae219dd835c4e0941f6cf236bb23aa"
   dependencies:
-    "@vercel/nft" "^0.26.2"
-    acorn "^8.11.3"
-    acorn-walk "^8.3.2"
+    "@vercel/nft" "^0.27.5"
+    acorn "^8.13.0"
+    acorn-walk "^8.3.4"
     ansi-styles "^6.2.1"
     arrgv "^1.0.2"
     arrify "^3.0.0"
-    callsites "^4.1.0"
-    cbor "^9.0.1"
+    callsites "^4.2.0"
+    cbor "^9.0.2"
     chalk "^5.3.0"
     chunkd "^2.0.1"
     ci-info "^4.0.0"
@@ -1072,10 +1074,10 @@ ava@^6.0.0:
     common-path-prefix "^3.0.0"
     concordance "^5.0.4"
     currently-unhandled "^0.4.1"
-    debug "^4.3.4"
-    emittery "^1.0.1"
-    figures "^6.0.1"
-    globby "^14.0.0"
+    debug "^4.3.7"
+    emittery "^1.0.3"
+    figures "^6.1.0"
+    globby "^14.0.2"
     ignore-by-default "^2.1.0"
     indent-string "^5.0.0"
     is-plain-object "^5.0.0"
@@ -1083,17 +1085,17 @@ ava@^6.0.0:
     matcher "^5.0.0"
     memoize "^10.0.0"
     ms "^2.1.3"
-    p-map "^7.0.1"
+    p-map "^7.0.2"
     package-config "^5.0.0"
-    picomatch "^3.0.1"
+    picomatch "^4.0.2"
     plur "^5.1.0"
-    pretty-ms "^9.0.0"
+    pretty-ms "^9.1.0"
     resolve-cwd "^3.0.0"
     stack-utils "^2.0.6"
     strip-ansi "^7.1.0"
     supertap "^3.0.1"
     temp-dir "^3.0.0"
-    write-file-atomic "^5.0.1"
+    write-file-atomic "^6.0.0"
     yargs "^17.7.2"
 
 available-typed-arrays@^1.0.5:
@@ -1271,17 +1273,17 @@ callsites@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz"
 
-callsites@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/callsites/-/callsites-4.1.0.tgz#de72b98612eed4e1e2564c952498677faa9d86c2"
+callsites@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/callsites/-/callsites-4.2.0.tgz#98761d5be3ce092e4b9c92f7fb8c8eb9b83cadc8"
 
 caniuse-lite@^1.0.30001640:
   version "1.0.30001642"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001642.tgz#6aa6610eb24067c246d30c57f055a9d0a7f8d05f"
 
-cbor@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/cbor/-/cbor-9.0.1.tgz#b16e393d4948d44758cd54ac6151379d443b37ae"
+cbor@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/cbor/-/cbor-9.0.2.tgz#536b4f2d544411e70ec2b19a2453f10f83cd9fdb"
   dependencies:
     nofilter "^3.1.0"
 
@@ -1576,11 +1578,11 @@ date-time@^3.1.0:
   dependencies:
     time-zone "^1.0.0"
 
-debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3, debug@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3, debug@^4.3.4, debug@^4.3.7:
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.7.tgz#87945b4151a011d76d95a198d7111c865c360a52"
   dependencies:
-    ms "2.1.2"
+    ms "^2.1.3"
 
 debug@^3.2.7:
   version "3.2.7"
@@ -1703,9 +1705,9 @@ electron-to-chromium@^1.4.820:
   version "1.4.830"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.830.tgz#a11899bc3343bc28f57a87fcf83060e0d28038d4"
 
-emittery@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/emittery/-/emittery-1.0.1.tgz#e0cf36e2d7eef94dbd025969f642d57ae50a56cd"
+emittery@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/emittery/-/emittery-1.0.3.tgz#c9d2a9c689870f15251bb13b31c67715c26d69ac"
 
 emoji-regex@^10.3.0:
   version "10.3.0"
@@ -2282,7 +2284,7 @@ figures@^2.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-figures@^6.0.0, figures@^6.0.1, figures@^6.1.0:
+figures@^6.0.0, figures@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-6.1.0.tgz#935479f51865fa7479f6fa94fc6fc7ac14e62c4a"
   dependencies:
@@ -3702,6 +3704,13 @@ micromatch@^4.0.2, micromatch@^4.0.4, micromatch@^4.0.7:
     braces "^3.0.3"
     picomatch "^2.3.1"
 
+micromatch@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.8.tgz#d66fa18f3a47076789320b9b1af32bd86d9fa202"
+  dependencies:
+    braces "^3.0.3"
+    picomatch "^2.3.1"
+
 mime-db@1.52.0:
   version "1.52.0"
   resolved "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz"
@@ -3851,10 +3860,6 @@ minizlib@^2.1.1, minizlib@^2.1.2:
 mkdirp@^1.0.3, mkdirp@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
-
-ms@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
 
 ms@^2.0.0, ms@^2.1.1, ms@^2.1.2, ms@^2.1.3:
   version "2.1.3"
@@ -4364,9 +4369,9 @@ p-map@^4.0.0:
   dependencies:
     aggregate-error "^3.0.0"
 
-p-map@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.1.tgz#1faf994e597160f7851882926bfccabc1d226f80"
+p-map@^7.0.1, p-map@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.2.tgz#7c5119fada4755660f70199a66aa3fe2f85a1fe8"
 
 p-reduce@^3.0.0:
   version "3.0.0"
@@ -4552,9 +4557,9 @@ picomatch@^2.2.2, picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
 
-picomatch@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-3.0.1.tgz#817033161def55ec9638567a2f3bbc876b3e7516"
+picomatch@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.2.tgz#77c742931e8f3b8820946c76cd0c1f13730d1dab"
 
 pify@^3.0.0:
   version "3.0.0"
@@ -4610,9 +4615,9 @@ prettier@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
 
-pretty-ms@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-9.0.0.tgz#53c57f81171c53be7ce3fd20bdd4265422bc5929"
+pretty-ms@^9.0.0, pretty-ms@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-9.1.0.tgz#0ad44de6086454f48a168e5abb3c26f8db1b3253"
   dependencies:
     parse-ms "^4.0.0"
 
@@ -5775,6 +5780,13 @@ wrappy@1:
 write-file-atomic@^5.0.0, write-file-atomic@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-5.0.1.tgz#68df4717c55c6fa4281a7860b4c2ba0a6d2b11e7"
+  dependencies:
+    imurmurhash "^0.1.4"
+    signal-exit "^4.0.1"
+
+write-file-atomic@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-6.0.0.tgz#e9c89c8191b3ef0606bc79fb92681aa1aa16fa93"
   dependencies:
     imurmurhash "^0.1.4"
     signal-exit "^4.0.1"
