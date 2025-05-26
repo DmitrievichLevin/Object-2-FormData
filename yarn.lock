@@ -897,6 +897,12 @@ ansi-escapes@^6.2.0:
   dependencies:
     type-fest "^3.0.0"
 
+ansi-escapes@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-7.0.0.tgz#00fc19f491bbb18e1d481b97868204f92109bfe7"
+  dependencies:
+    environment "^1.0.0"
+
 ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
@@ -904,6 +910,10 @@ ansi-regex@^5.0.1:
 ansi-regex@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.0.1.tgz"
+
+ansi-regex@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.1.0.tgz#95ec409c69619d6cb1b8b34f14b660ef28ebd654"
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -1410,6 +1420,14 @@ cli-table3@^0.6.3:
   optionalDependencies:
     "@colors/colors" "1.5.0"
 
+cli-table3@^0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/cli-table3/-/cli-table3-0.6.5.tgz#013b91351762739c16a9567c21a04632e449bf2f"
+  dependencies:
+    string-width "^4.2.0"
+  optionalDependencies:
+    "@colors/colors" "1.5.0"
+
 cli-truncate@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/cli-truncate/-/cli-truncate-4.0.0.tgz#6cc28a2924fee9e25ce91e973db56c7066e6172a"
@@ -1854,6 +1872,10 @@ env-editor@^1.1.0:
 env-paths@^2.2.0, env-paths@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/env-paths/-/env-paths-2.2.1.tgz"
+
+environment@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/environment/-/environment-1.1.0.tgz#8e86c66b180f363c7ab311787e0259665f45a9f1"
 
 err-code@^2.0.2:
   version "2.0.3"
@@ -3960,16 +3982,17 @@ make-fetch-happen@^13.0.0:
     promise-retry "^2.0.1"
     ssri "^10.0.0"
 
-marked-terminal@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/marked-terminal/-/marked-terminal-7.0.0.tgz#78f5060a8454adb6f0b878fff2c60763502e23fb"
+marked-terminal@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/marked-terminal/-/marked-terminal-7.3.0.tgz#7a86236565f3dd530f465ffce9c3f8b62ef270e8"
   dependencies:
-    ansi-escapes "^6.2.0"
-    chalk "^5.3.0"
+    ansi-escapes "^7.0.0"
+    ansi-regex "^6.1.0"
+    chalk "^5.4.1"
     cli-highlight "^2.1.11"
-    cli-table3 "^0.6.3"
-    node-emoji "^2.1.3"
-    supports-hyperlinks "^3.0.0"
+    cli-table3 "^0.6.5"
+    node-emoji "^2.2.0"
+    supports-hyperlinks "^3.1.0"
 
 marked@^15.0.0:
   version "15.0.11"
@@ -4220,9 +4243,9 @@ nerf-dart@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/nerf-dart/-/nerf-dart-1.0.0.tgz"
 
-node-emoji@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-2.1.3.tgz#93cfabb5cc7c3653aa52f29d6ffb7927d8047c06"
+node-emoji@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-2.2.0.tgz#1d000e3c76e462577895be1b436f4aa2d6760eb0"
   dependencies:
     "@sindresorhus/is" "^4.6.0"
     char-regex "^1.0.2"
@@ -5290,8 +5313,8 @@ safe-regex-test@^1.0.3:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
 
 semantic-release@^24.0.0:
-  version "24.2.4"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.2.4.tgz#c4b31b6d47ee28d9cc454edebf871e585cad05a0"
+  version "24.2.5"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.2.5.tgz#06765f427b0e94e9e008e96ba7abf6a56ca8e59e"
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.0-beta.1"
     "@semantic-release/error" "^4.0.0"
@@ -5312,7 +5335,7 @@ semantic-release@^24.0.0:
     import-from-esm "^2.0.0"
     lodash-es "^4.17.21"
     marked "^15.0.0"
-    marked-terminal "^7.0.0"
+    marked-terminal "^7.3.0"
     micromatch "^4.0.2"
     p-each-series "^3.0.0"
     p-reduce "^3.0.0"
@@ -5759,6 +5782,13 @@ supports-color@^9.4.0:
 supports-hyperlinks@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/supports-hyperlinks/-/supports-hyperlinks-3.0.0.tgz#c711352a5c89070779b4dad54c05a2f14b15c94b"
+  dependencies:
+    has-flag "^4.0.0"
+    supports-color "^7.0.0"
+
+supports-hyperlinks@^3.1.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/supports-hyperlinks/-/supports-hyperlinks-3.2.0.tgz#b8e485b179681dea496a1e7abdf8985bd3145461"
   dependencies:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
