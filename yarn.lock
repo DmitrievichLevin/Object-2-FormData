@@ -6300,8 +6300,8 @@ write-file-atomic@^6.0.0:
     signal-exit "^4.0.1"
 
 xo@^1.0.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-1.2.1.tgz#a72c3c8c18919090d17f9062442bb2a8012cb9d4"
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-1.2.2.tgz#06cd56a0f13200283264e1f27237abca5f68f154"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.5.0"
     "@sindresorhus/tsconfig" "^7.0.0"
