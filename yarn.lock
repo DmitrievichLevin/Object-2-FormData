@@ -6,6 +6,30 @@
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
 
+"@actions/core@^1.11.1":
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.11.1.tgz#ae683aac5112438021588030efb53b1adb86f172"
+  dependencies:
+    "@actions/exec" "^1.1.1"
+    "@actions/http-client" "^2.0.1"
+
+"@actions/exec@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@actions/exec/-/exec-1.1.1.tgz#2e43f28c54022537172819a7cf886c844221a611"
+  dependencies:
+    "@actions/io" "^1.0.1"
+
+"@actions/http-client@^2.0.1":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-2.2.3.tgz#31fc0b25c0e665754ed39a9f19a8611fc6dab674"
+  dependencies:
+    tunnel "^0.0.6"
+    undici "^5.25.4"
+
+"@actions/io@^1.0.1":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@actions/io/-/io-1.1.3.tgz#4cdb6254da7962b07473ff5c335f3da485d94d71"
+
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.18.6.tgz"
@@ -162,6 +186,10 @@
   dependencies:
     "@eslint/core" "^0.14.0"
     levn "^0.4.1"
+
+"@fastify/busboy@^2.0.0":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.1.tgz#b9da6a878a371829a0502c9b6c1c143ef6663f4d"
 
 "@humanfs/core@^0.19.1":
   version "0.19.1"
@@ -578,12 +606,14 @@
     tinyglobby "^0.2.14"
     url-join "^5.0.0"
 
-"@semantic-release/npm@^13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-13.0.0.tgz#d5580d1374ecb3ed7a44394be5e0d64fa16854ff"
+"@semantic-release/npm@^13.1.1":
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-13.1.1.tgz#7d4e8a6ae4ebf556463871e41fdd63499b6675fd"
   dependencies:
+    "@actions/core" "^1.11.1"
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^5.0.0"
+    env-ci "^11.2.0"
     execa "^9.0.0"
     fs-extra "^11.0.0"
     lodash-es "^4.17.21"
@@ -1954,9 +1984,9 @@ enhanced-resolve@^5.17.1:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-env-ci@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/env-ci/-/env-ci-11.0.0.tgz#0cbc2c55feb071a3651aaa9fa181a817e696595f"
+env-ci@^11.0.0, env-ci@^11.2.0:
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/env-ci/-/env-ci-11.2.0.tgz#e7386afdf752962c587e7f3d3fb64d87d68e82c6"
   dependencies:
     execa "^8.0.0"
     java-properties "^1.0.2"
@@ -5257,13 +5287,13 @@ safe-regex-test@^1.1.0:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
 
 semantic-release@^25.0.0:
-  version "25.0.0"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-25.0.0.tgz#d3e3af784ca1f09a99f777e60f9e14f08a47a7fd"
+  version "25.0.1"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-25.0.1.tgz#0a5b165ef0d9799bc860c5198605842dc4f50028"
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.1"
     "@semantic-release/error" "^4.0.0"
     "@semantic-release/github" "^12.0.0"
-    "@semantic-release/npm" "^13.0.0"
+    "@semantic-release/npm" "^13.1.1"
     "@semantic-release/release-notes-generator" "^14.1.0"
     aggregate-error "^5.0.0"
     cosmiconfig "^9.0.0"
@@ -5935,6 +5965,10 @@ tuf-js@^4.0.0:
     debug "^4.4.1"
     make-fetch-happen "^15.0.0"
 
+tunnel@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/tunnel/-/tunnel-0.0.6.tgz#72f1314b34a5b192db012324df2cc587ca47f92c"
+
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
   resolved "https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz"
@@ -6105,6 +6139,12 @@ unbox-primitive@^1.1.0:
     has-bigints "^1.0.2"
     has-symbols "^1.1.0"
     which-boxed-primitive "^1.1.1"
+
+undici@^5.25.4:
+  version "5.29.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.29.0.tgz#419595449ae3f2cdcba3580a2e8903399bd1f5a3"
+  dependencies:
+    "@fastify/busboy" "^2.0.0"
 
 unicode-emoji-modifier-base@^1.0.0:
   version "1.0.0"
