@@ -879,9 +879,9 @@
   dependencies:
     "@sinonjs/commons" "^3.0.1"
 
-"@sinonjs/samsam@^9.0.2":
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/@sinonjs/samsam/-/samsam-9.0.2.tgz#ff0ad0e50e41942891588989615fbc4df569b76b"
+"@sinonjs/samsam@^9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@sinonjs/samsam/-/samsam-9.0.3.tgz#da4cad6ee24ca0c9c205da16676f7d540df71f12"
   dependencies:
     "@sinonjs/commons" "^3.0.1"
     type-detect "^4.1.0"
@@ -5605,12 +5605,12 @@ sigstore@^4.0.0:
     "@sigstore/verify" "^3.0.0"
 
 sinon@^21.0.0:
-  version "21.0.2"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-21.0.2.tgz#2dca6fc59eca5288d9f2284925e9ae586085f917"
+  version "21.0.3"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-21.0.3.tgz#fd3a2387ffe4fdbbfbbf3a0858f18d46c4acb34e"
   dependencies:
     "@sinonjs/commons" "^3.0.1"
     "@sinonjs/fake-timers" "^15.1.1"
-    "@sinonjs/samsam" "^9.0.2"
+    "@sinonjs/samsam" "^9.0.3"
     diff "^8.0.3"
     supports-color "^7.2.0"
 
