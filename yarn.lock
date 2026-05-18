@@ -202,6 +202,10 @@
   version "1.5.0"
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
 
+"@cto.af/wtf8@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@cto.af/wtf8/-/wtf8-0.0.5.tgz#968ab98ca2036c7d104e95b449e782dbf0c4a80f"
+
 "@emnapi/core@^1.4.3":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@emnapi/core/-/core-1.4.3.tgz#9ac52d2d5aea958f67e52c40a065f51de59b77d6"
@@ -1381,8 +1385,8 @@ asynckit@^0.4.0:
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
 
 ava@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/ava/-/ava-8.0.0.tgz#8c16705c63c7193f3a2253933323ce3de44c10be"
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/ava/-/ava-8.0.1.tgz#cb41c0352171d8de427c076d08d108e5357a62f1"
   dependencies:
     "@vercel/nft" "^1.5.0"
     acorn "^8.16.0"
@@ -1391,7 +1395,7 @@ ava@^8.0.0:
     arrgv "^1.0.2"
     arrify "^3.0.0"
     callsites "^4.2.0"
-    cbor "^10.0.12"
+    cbor2 "^2.3.0"
     chalk "^5.6.2"
     chunkd "^2.0.1"
     ci-info "^4.4.0"
@@ -1619,11 +1623,11 @@ caniuse-lite@^1.0.30001759:
   version "1.0.30001779"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001779.tgz#75e4941d406928ba00c8d7a3ddda0b2cb90d7474"
 
-cbor@^10.0.12:
-  version "10.0.12"
-  resolved "https://registry.yarnpkg.com/cbor/-/cbor-10.0.12.tgz#2ae291481ef6f28127ba39a9f8ee22f29677e04f"
+cbor2@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/cbor2/-/cbor2-2.3.0.tgz#678b39143cada217121307643cf6f28be2c72960"
   dependencies:
-    nofilter "^3.0.2"
+    "@cto.af/wtf8" "0.0.5"
 
 chalk@^2.0.0, chalk@^2.3.2, chalk@^2.4.2:
   version "2.4.2"
@@ -4521,10 +4525,6 @@ node-gyp@^11.4.2:
 node-releases@^2.0.27:
   version "2.0.36"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.36.tgz#99fd6552aaeda9e17c4713b57a63964a2e325e9d"
-
-nofilter@^3.0.2:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/nofilter/-/nofilter-3.1.0.tgz#c757ba68801d41ff930ba2ec55bab52ca184aa66"
 
 nopt@^8.0.0, nopt@^8.1.0:
   version "8.1.0"
