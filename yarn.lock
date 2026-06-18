@@ -5742,8 +5742,8 @@ wsl-utils@^0.3.0:
     powershell-utils "^0.1.0"
 
 xo@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-3.0.0.tgz#7efda4214d47d52ec9749ea19d1693583c94a5d1"
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-3.0.1.tgz#66a18afc98d39e1380c6e520ea8eba5a95a1d84b"
   dependencies:
     "@sindresorhus/tsconfig" "^8.1.0"
     arrify "^3.0.0"
