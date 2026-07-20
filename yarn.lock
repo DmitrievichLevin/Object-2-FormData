@@ -4958,8 +4958,8 @@ scslre@^0.3.0:
     regexp-ast-analysis "^0.7.0"
 
 semantic-release@^25.0.0:
-  version "25.0.7"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-25.0.7.tgz#299370ea9f1c1de21e053855232dcfd258f17fd9"
+  version "25.0.8"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-25.0.8.tgz#a665bbcd3aa56ed602854d26094406dcfb1e9aea"
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.1"
     "@semantic-release/error" "^4.0.0"
