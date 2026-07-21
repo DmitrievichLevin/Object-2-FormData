@@ -5042,8 +5042,8 @@ sigstore@^4.0.0:
     "@sigstore/verify" "^3.0.0"
 
 sinon@^22.0.0:
-  version "22.0.0"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-22.0.0.tgz#01cea95c919468f6ef01e21d406397e5c02aad9b"
+  version "22.1.0"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-22.1.0.tgz#df5a9308d1818166d1370795a4953ceadc5ff706"
   dependencies:
     "@sinonjs/commons" "^3.0.1"
     "@sinonjs/fake-timers" "^15.4.0"
