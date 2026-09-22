@@ -2206,7 +2206,7 @@ eslint-config-prettier@^10.1.8:
   version "10.1.8"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-10.1.8.tgz#15734ce4af8c2778cc32f0b01b37b0b5cd1ecb97"
 
-eslint-config-xo@^3.0.1:
+eslint-config-xo@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-3.0.2.tgz#e21ad671e6b5b5af24ae9a1fda957f5bed7a73d4"
   dependencies:
@@ -5905,15 +5905,15 @@ wsl-utils@^0.3.0:
     powershell-utils "^0.1.0"
 
 xo@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-5.0.0.tgz#c0cd3e7c87b0f7b7048c9d7596f2ae172e5d7a9b"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-5.0.1.tgz#7e9b4fc3ba1658a6b75f0b15d4c4ebe974c8a3d4"
   dependencies:
     "@sindresorhus/tsconfig" "^8.1.0"
     arrify "^3.0.0"
     cosmiconfig "^10.0.0"
     define-lazy-prop "^3.0.0"
     eslint "^10.8.0"
-    eslint-config-xo "^3.0.1"
+    eslint-config-xo "^3.0.2"
     eslint-formatter-pretty "^7.1.0"
     find-cache-directory "^6.0.0"
     get-stdin "^10.0.0"
