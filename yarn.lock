@@ -1466,8 +1466,8 @@ asynckit@^0.4.0:
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
 
 ava@^8.0.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/ava/-/ava-8.1.0.tgz#749f21291e7e1ff501cfac2222d90003453f0f93"
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/ava/-/ava-8.1.1.tgz#53fea8f2363751977b9c0f6f1fe153718e93bdf0"
   dependencies:
     "@vercel/nft" "^1.11.0"
     acorn "^8.19.0"
@@ -1487,7 +1487,7 @@ ava@^8.0.0:
     concordance "^5.0.4"
     currently-unhandled "^0.4.1"
     debug "^4.4.3"
-    emittery "^2.1.0"
+    emittery "^2.2.0"
     figures "^6.1.0"
     globby "^16.2.4"
     ignore-by-default "^2.1.0"
@@ -1501,7 +1501,7 @@ ava@^8.0.0:
     package-config "^5.0.0"
     picomatch "^4.0.7"
     plur "^6.0.0"
-    pretty-ms "^9.3.1"
+    pretty-ms "^10.0.0"
     resolve-cwd "^3.0.0"
     slash "^5.1.0"
     stack-utils "^2.0.6"
@@ -2087,9 +2087,9 @@ electron-to-chromium@^1.5.427:
   version "1.5.433"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.433.tgz#5c26b05c48030ff4a5566fcaa10dc452a1d1de3e"
 
-emittery@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/emittery/-/emittery-2.1.0.tgz#8ee9a35fb2c92127f1fe453b0e476b261c9dc119"
+emittery@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/emittery/-/emittery-2.2.0.tgz#d7d4133ca100f5d6927a9787bcb9456448048e06"
 
 emoji-regex@^10.3.0:
   version "10.3.0"
@@ -4843,7 +4843,11 @@ prettier@^3.9.6:
   version "3.9.8"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.8.tgz#54e81128584538c81d85fce9d5fd77a410c385c5"
 
-pretty-ms@^9.2.0, pretty-ms@^9.3.1:
+pretty-ms@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-10.0.0.tgz#3a223bfea7625711955557f1a58389b80d9ed00c"
+
+pretty-ms@^9.2.0:
   version "9.3.1"
   resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-9.3.1.tgz#7b58d8fbf376f01602ff05230358e8fa5e0f072b"
   dependencies:
