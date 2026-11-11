@@ -1466,8 +1466,8 @@ asynckit@^0.4.0:
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
 
 ava@^8.0.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/ava/-/ava-8.3.0.tgz#de4cdd733e04a38c0d3f20923dab3d1c95b48bd2"
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/ava/-/ava-8.4.0.tgz#c5aa69816f6944746cccafbd2bc0db96ca8d1063"
   dependencies:
     "@vercel/nft" "^1.11.0"
     acorn "^8.19.0"
